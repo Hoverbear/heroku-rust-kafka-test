@@ -4,8 +4,10 @@ version = "0.1.0"
 authors = ["Andrew Hobden <andrew@hoverbear.org>"]
 
 [dependencies]
-kafka = "*"
+kafka = { git = "https://github.com/Hoverbear/kafka-rust", branch = "ssl" }
+openssl = "*"
 iron = "*"
+lazy_static = "*"
 
 [target.heroku]
 version = "nightly"
