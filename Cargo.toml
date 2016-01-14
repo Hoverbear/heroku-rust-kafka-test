@@ -1,0 +1,11 @@
+[package]
+name = "kafka-rust-test"
+version = "0.1.0"
+authors = ["Andrew Hobden <andrew@hoverbear.org>"]
+
+[dependencies]
+kafka = "*"
+iron = "*"
+
+[target.heroku]
+version = "nightly"
